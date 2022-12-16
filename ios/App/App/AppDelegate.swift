@@ -11,7 +11,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
-    QMNative.initialize(withSubscription: "qmjblalock", uid: "103322")
+    // QMNative.initialize(withSubscription: "qmjblalock", uid: "103322")
     FirebaseApp.configure()
     return true
   }

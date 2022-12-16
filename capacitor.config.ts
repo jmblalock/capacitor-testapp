@@ -8,6 +8,7 @@ const config: CapacitorConfig = {
   appId: 'com.capacitorjs.app.testapp',
   appName: 'capacitor-testapp',
   webDir: 'build',
+  bundledWebRuntime: false,
   plugins: {
     CapacitorCookies: {
       enabled: true,
@@ -23,8 +24,8 @@ const config: CapacitorConfig = {
       iconColor: '#CE0B7C',
     },
     PushNotifications: {
-      presentationOptions: ["alert", "sound"]
-    }
+      presentationOptions: ['alert', 'sound'],
+    },
   },
 };
 
